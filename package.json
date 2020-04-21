@@ -1,0 +1,29 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "This is Express server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest __test__/server.test.js",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wpiao/api-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wpiao/api-server/issues"
+  },
+  "homepage": "https://github.com/wpiao/api-server#readme",
+  "devDependencies": {
+    "jest": "^25.4.0",
+    "nodemon": "^2.0.3",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
