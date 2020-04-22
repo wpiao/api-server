@@ -4,7 +4,7 @@
   "description": "This is Express server.",
   "main": "index.js",
   "scripts": {
-    "test": "jest __test__/server.test.js",
+    "test": "jest __test__/server.test.js --verbose --coverage",
     "start": "nodemon index.js"
   },
   "repository": {
